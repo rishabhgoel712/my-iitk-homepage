@@ -4,10 +4,12 @@ body {
     margin: 0px 0px 0px 0px;
     }
 #name{
-    margin: 0px 100px 100px 100px;
-}
+    margin: 0px 200px 200px 200px;
+    height: 400px;
+    }
 #first {
-    background-image: url("wood.jpg");
+    background-image: url("theme.jpg");
+    background-size: inherit;
     margin: 0px 0px 0px 0px;
     }
 ul {
@@ -33,5 +35,36 @@ a:hover {
 .active {
     background-color: #4CAF50
     }
+#block1{
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    }
+#block1a{
+    border:2px solid red;
+    height:200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
 
-    
+#block2{
+    border:2px solid green;
+    height:400px;
+    width: 600px;
+    float: left;
+    margin: 50px;
+    position: relative;
+}
+#block3{
+    border:2px solid red;
+    height:400px;
+    width: 600px;
+    clear: both;
+    margin: 10px;
+}
+#text{
+    font-size: 2.5em;
+}
